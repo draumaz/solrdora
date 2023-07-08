@@ -1,6 +1,6 @@
 {
-  "serverAddress": "localhost:9001",
-  "solrCoreUrl": "http://localhost:8983/solr/bibdata",
+  "serverAddress": "https://solrdora.draumaz.xyz",
+  "solrCoreUrl": "http://localhost:3006/solr/bibdata",
   "solrOptions" : {
     "defType": "edismax",
     "qf": "author_txt_en title_txt_en^100",
