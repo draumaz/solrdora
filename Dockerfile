@@ -1,7 +1,8 @@
 FROM golang:latest
 
-COPY . .
+COPY . /solrdora
 
+RUN cd /solrdora
 RUN go get
 RUN go build
 
